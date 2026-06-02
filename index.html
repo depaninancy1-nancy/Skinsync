@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinSync - Skincare Tracking Made Easy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <i class="fas fa-leaf"></i>
+                <span>SkinSync</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Your Skin's Best Friend</h1>
+            <p>Track your skincare routine, monitor progress, and achieve your skin goals</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="showLoginModal()">Get Started</button>
+                <button class="btn btn-secondary" onclick="scrollToFeatures()">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-illustration">
+                <i class="fas fa-spa"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose SkinSync?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Track Progress</h3>
+                    <p>Monitor your skin condition with detailed logs and visual progress tracking</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Product Management</h3>
+                    <p>Keep track of all your skincare products and their usage patterns</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Routine Planning</h3>
+                    <p>Create and maintain consistent skincare routines with daily reminders</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access SkinSync on any device - desktop, tablet, or mobile</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your skincare data is encrypted and completely private</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Get insights into your skin patterns and improvement trends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About SkinSync</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>SkinSync is designed to help you take control of your skincare journey. Whether you're dealing with acne, dryness, oiliness, or just want to maintain healthy skin, SkinSync provides the tools you need to track, analyze, and improve your skin health.</p>
+                    <p>Our platform is built for everyone - men and women of all ages and skin types. Start tracking today and discover the power of consistent skincare habits.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5000+</h3>
+                        <p>Tracked Products</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10K+</h3>
+                        <p>Progress Photos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SkinSync</h3>
+                    <p>Your journey to healthy skin starts here</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SkinSync. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Welcome to SkinSync</h2>
+            <div class="modal-tabs">
+                <button class="tab-button active" onclick="switchTab('login')">Login</button>
+                <button class="tab-button" onclick="switchTab('signup')">Sign Up</button>
+            </div>
+            
+            <!-- Login Form -->
+            <form class="modal-form" id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Login</button>
+            </form>
+
+            <!-- Sign Up Form -->
+            <form class="modal-form hidden" id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupConfirm">Confirm Password</label>
+                    <input type="password" id="signupConfirm" placeholder="Confirm your password" required>
+                </div>
+                <div class="form-group">
+                    <label for="skinType">Skin Type</label>
+                    <select id="skinType" required>
+                        <option value="">Select your skin type</option>
+                        <option value="oily">Oily</option>
+                        <option value="dry">Dry</option>
+                        <option value="combination">Combination</option>
+                        <option value="sensitive">Sensitive</option>
+                        <option value="normal">Normal</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Create Account</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
